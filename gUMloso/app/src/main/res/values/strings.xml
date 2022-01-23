@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">gUMloso</string>
+    <string-array name="register_spinner">
+        <item>Consumidor</item>
+        <item>Gestor</item>
+    </string-array>
+    <string name="title_activity_maps">MapsActivity</string>
+
+</resources>

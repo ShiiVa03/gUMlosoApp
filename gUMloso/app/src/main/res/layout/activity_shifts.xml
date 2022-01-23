@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShiftsActivity">
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Domingo"
+        app:layout_constraintStart_toStartOf="@+id/textView58"
+        app:layout_constraintTop_toBottomOf="@+id/textView58" />
+
+    <EditText
+        android:id="@+id/ah7"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="time"
+        app:layout_constraintBottom_toBottomOf="@+id/textView61"
+        app:layout_constraintStart_toEndOf="@+id/textView61"
+        app:layout_constraintTop_toTopOf="@+id/textView61"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <EditText
+        android:id="@+id/am7"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="6dp"
+        android:ems="10"
+        android:inputType="time"
+        app:layout_constraintBottom_toBottomOf="@+id/ah7"
+        app:layout_constraintStart_toEndOf="@+id/ah7"
+        app:layout_constraintTop_toTopOf="@+id/ah7" />
+
+    <EditText
+        android:id="@+id/fm7"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="time"
+        app:layout_constraintBottom_toBottomOf="@+id/fh7"
+        app:layout_constraintStart_toEndOf="@+id/fh7"
+        app:layout_constraintTop_toTopOf="@+id/fh7" />
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="Fecho"
+        app:layout_constraintBottom_toBottomOf="@+id/am7"
+        app:layout_constraintStart_toEndOf="@+id/am7"
+        app:layout_constraintTop_toTopOf="@+id/am7" />
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Abertura"
+        app:layout_constraintStart_toStartOf="@+id/textView59"
+        app:layout_constraintTop_toBottomOf="@+id/textView59" />
+
+    <EditText
+        android:id="@+id/fh7"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="time"
+        app:layout_constraintBottom_toBottomOf="@+id/textView60"
+        app:layout_constraintStart_toEndOf="@+id/textView60"
+        app:layout_constraintTop_toTopOf="@+id/textView60" />
+
+    <EditText
+        android:id="@+id/ah6"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="time"
+        app:layout_constraintBottom_toBottomOf="@+id/textView58"
+        app:layout_constraintStart_toEndOf="@+id/textView58"
+        app:layout_constraintTop_toTopOf="@+id/textView58" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Sábado"
+        app:layout_constraintStart_toStartOf="@+id/textView55"
+        app:layout_constraintTop_toBottomOf="@+id/textView55" />
+
+    <EditText
+        android:id="@+id/fh6"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="time"
+        app:layout_constraintBottom_toBottomOf="@+id/textView57"
+        app:layout_constraintStart_toEndOf="@+id/textView57"
+        app:layout_constraintTop_toTopOf="@+id/textView57" />
+
+    <EditText
+        android:id="@+id/fm6"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="time"
+        app:layout_constraintBottom_toBottomOf="@+id/fh6"
+        app:layout_constraintStart_toEndOf="@+id/fh6"
+        app:layout_constraintTop_toTopOf="@+id/fh6" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="Fecho"
+        app:layout_constraintBottom_toBottomOf="@+id/am6"
+        app:layout_constraintStart_toEndOf="@+id/am6"
+        app:layout_constraintTop_toTopOf="@+id/am6" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Abertura"
+        app:layout_constraintStart_toStartOf="@+id/textView56"
+        app:layout_constraintTop_toBottomOf="@+id/textView56" />
+
+    <EditText
+        android:id="@+id/am6"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="6dp"
+        android:ems="10"
+        android:inputType="time"
+        app:layout_constraintBottom_toBottomOf="@+id/ah6"
+        app:layout_constraintStart_toEndOf="@+id/ah6"
+        app:layout_constraintTop_toTopOf="@+id/ah6" />
+
+    <EditText
+        android:id="@+id/ah5"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="time"
+        app:layout_constraintBottom_toBottomOf="@+id/textView55"
+        app:layout_constraintStart_toEndOf="@+id/textView55"
+        app:layout_constraintTop_toTopOf="@+id/textView55" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Sexta-Feira"
+        app:layout_constraintStart_toStartOf="@+id/textView52"
+        app:layout_constraintTop_toBottomOf="@+id/textView52" />
+
+    <EditText
+        android:id="@+id/fh5"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="time"
+        app:layout_constraintBottom_toBottomOf="@+id/textView54"
+        app:layout_constraintStart_toEndOf="@+id/textView54"
+        app:layout_constraintTop_toTopOf="@+id/textView54" />
+
+    <EditText
+        android:id="@+id/fm5"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="time"
+        app:layout_constraintBottom_toBottomOf="@+id/fh5"
+        app:layout_constraintStart_toEndOf="@+id/fh5"
+        app:layout_constraintTop_toTopOf="@+id/fh5" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="Fecho"
+        app:layout_constraintBottom_toBottomOf="@+id/am5"
+        app:layout_constraintStart_toEndOf="@+id/am5"
+        app:layout_constraintTop_toTopOf="@+id/am5" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Abertura"
+        app:layout_constraintStart_toStartOf="@+id/textView53"
+        app:layout_constraintTop_toBottomOf="@+id/textView53" />
+
+    <EditText
+        android:id="@+id/am5"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="time"
+        app:layout_constraintBottom_toBottomOf="@+id/ah5"
+        app:layout_constraintStart_toEndOf="@+id/ah5"
+        app:layout_constraintTop_toTopOf="@+id/ah5" />
+
+    <EditText
+        android:id="@+id/ah4"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="time"
+        app:layout_constraintBottom_toBottomOf="@+id/textView52"
+        app:layout_constraintStart_toEndOf="@+id/textView52"
+        app:layout_constraintTop_toTopOf="@+id/textView52"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Quinta-Feira"
+        app:layout_constraintStart_toStartOf="@+id/textView49"
+        app:layout_constraintTop_toBottomOf="@+id/textView49" />
+
+    <EditText
+        android:id="@+id/fh4"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="time"
+        app:layout_constraintBottom_toBottomOf="@+id/textView51"
+        app:layout_constraintStart_toEndOf="@+id/textView51"
+        app:layout_constraintTop_toTopOf="@+id/textView51" />
+
+    <EditText
+        android:id="@+id/fm4"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="time"
+        app:layout_constraintBottom_toBottomOf="@+id/fh4"
+        app:layout_constraintStart_toEndOf="@+id/fh4"
+        app:layout_constraintTop_toTopOf="@+id/fh4" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="Fecho"
+        app:layout_constraintBottom_toBottomOf="@+id/am4"
+        app:layout_constraintStart_toEndOf="@+id/am4"
+        app:layout_constraintTop_toTopOf="@+id/am4" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Abertura"
+        app:layout_constraintStart_toStartOf="@+id/textView50"
+        app:layout_constraintTop_toBottomOf="@+id/textView50" />
+
+    <EditText
+        android:id="@+id/am4"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="time"
+        app:layout_constraintBottom_toBottomOf="@+id/ah4"
+        app:layout_constraintStart_toEndOf="@+id/ah4"
+        app:layout_constraintTop_toTopOf="@+id/ah4" />
+
+    <EditText
+        android:id="@+id/ah3"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="time"
+        app:layout_constraintBottom_toBottomOf="@+id/textView49"
+        app:layout_constraintStart_toEndOf="@+id/textView49"
+        app:layout_constraintTop_toTopOf="@+id/textView49" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Quarta-Feira"
+        app:layout_constraintStart_toStartOf="@+id/textView46"
+        app:layout_constraintTop_toBottomOf="@+id/textView46" />
+
+    <EditText
+        android:id="@+id/fh3"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="time"
+        app:layout_constraintBottom_toBottomOf="@+id/textView48"
+        app:layout_constraintStart_toEndOf="@+id/textView48"
+        app:layout_constraintTop_toTopOf="@+id/textView48" />
+
+    <EditText
+        android:id="@+id/fm3"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="time"
+        app:layout_constraintBottom_toBottomOf="@+id/fh3"
+        app:layout_constraintStart_toEndOf="@+id/fh3"
+        app:layout_constraintTop_toTopOf="@+id/fh3" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="Fecho"
+        app:layout_constraintBottom_toBottomOf="@+id/am3"
+        app:layout_constraintStart_toEndOf="@+id/am3"
+        app:layout_constraintTop_toTopOf="@+id/am3" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Abertura"
+        app:layout_constraintStart_toStartOf="@+id/textView47"
+        app:layout_constraintTop_toBottomOf="@+id/textView47" />
+
+    <EditText
+        android:id="@+id/am3"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="time"
+        app:layout_constraintBottom_toBottomOf="@+id/ah3"
+        app:layout_constraintStart_toEndOf="@+id/ah3"
+        app:layout_constraintTop_toTopOf="@+id/ah3" />
+
+    <EditText
+        android:id="@+id/ah2"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="time"
+        app:layout_constraintBottom_toBottomOf="@+id/textView46"
+        app:layout_constraintStart_toEndOf="@+id/textView46"
+        app:layout_constraintTop_toTopOf="@+id/textView46" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Terça-Feira"
+        app:layout_constraintTop_toBottomOf="@+id/textView24"
+        tools:layout_editor_absoluteX="36dp" />
+
+    <EditText
+        android:id="@+id/fh2"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="time"
+        app:layout_constraintBottom_toBottomOf="@+id/textView45"
+        app:layout_constraintStart_toEndOf="@+id/textView45"
+        app:layout_constraintTop_toTopOf="@+id/textView45" />
+
+    <EditText
+        android:id="@+id/fm2"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="time"
+        app:layout_constraintBottom_toBottomOf="@+id/fh2"
+        app:layout_constraintStart_toEndOf="@+id/fh2"
+        app:layout_constraintTop_toTopOf="@+id/fh2" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="Fecho"
+        app:layout_constraintBottom_toBottomOf="@+id/am2"
+        app:layout_constraintStart_toEndOf="@+id/am2"
+        app:layout_constraintTop_toTopOf="@+id/am2" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Abertura"
+        app:layout_constraintStart_toStartOf="@+id/textView44"
+        app:layout_constraintTop_toBottomOf="@+id/textView44" />
+
+    <EditText
+        android:id="@+id/am2"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="time"
+        app:layout_constraintBottom_toBottomOf="@+id/ah2"
+        app:layout_constraintStart_toEndOf="@+id/ah2"
+        app:layout_constraintTop_toTopOf="@+id/ah2" />
+
+    <EditText
+        android:id="@+id/fh1"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="time"
+        app:layout_constraintBottom_toBottomOf="@+id/textView25"
+        app:layout_constraintStart_toEndOf="@+id/textView25"
+        app:layout_constraintTop_toTopOf="@+id/textView25" />
+
+    <EditText
+        android:id="@+id/am1"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="time"
+        app:layout_constraintBottom_toBottomOf="@+id/ah1"
+        app:layout_constraintStart_toEndOf="@+id/ah1"
+        app:layout_constraintTop_toTopOf="@+id/ah1" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="133dp"
+        android:layout_height="33dp"
+        android:text="Horários"
+        android:textColor="@color/textColorB"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Segunda-Feira"
+        app:layout_constraintTop_toBottomOf="@+id/textView22"
+        tools:layout_editor_absoluteX="36dp" />
+
+    <EditText
+        android:id="@+id/ah1"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="time"
+        app:layout_constraintBottom_toBottomOf="@+id/textView24"
+        app:layout_constraintStart_toEndOf="@+id/textView24"
+        app:layout_constraintTop_toTopOf="@+id/textView24" />
+
+    <EditText
+        android:id="@+id/fm1"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="time"
+        app:layout_constraintBottom_toBottomOf="@+id/fh1"
+        app:layout_constraintStart_toEndOf="@+id/fh1"
+        app:layout_constraintTop_toTopOf="@+id/fh1" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Abertura"
+        app:layout_constraintStart_toStartOf="@+id/textView23"
+        app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="Fecho"
+        app:layout_constraintBottom_toBottomOf="@+id/am1"
+        app:layout_constraintStart_toEndOf="@+id/am1"
+        app:layout_constraintTop_toTopOf="@+id/am1" />
+
+    <Button
+        android:id="@+id/buttonSet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:text="Set"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

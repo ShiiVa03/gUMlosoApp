@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="287dp"
+        android:layout_height="63dp"
+        android:background="@color/caseColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/restaurantInfo3"
+        android:layout_width="88dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        app:layout_constraintEnd_toEndOf="@+id/restaurantInfo2"
+        app:layout_constraintStart_toStartOf="@+id/restaurantInfo2"
+        app:layout_constraintTop_toBottomOf="@+id/restaurantInfo2" />
+
+    <TextView
+        android:id="@+id/restaurantInfo2"
+        android:layout_width="88dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        app:layout_constraintEnd_toEndOf="@+id/restaurantInfo1"
+        app:layout_constraintStart_toStartOf="@+id/restaurantInfo1"
+        app:layout_constraintTop_toBottomOf="@+id/restaurantInfo1" />
+
+    <TextView
+        android:id="@+id/restaurantView"
+        android:layout_width="113dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="40dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toStartOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toTopOf="@+id/view" />
+
+    <TextView
+        android:id="@+id/restaurantInfo1"
+        android:layout_width="88dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="28dp"
+        android:layout_weight="1"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toBottomOf="@+id/view" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="89dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="49dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintTop_toTopOf="@+id/view"
+        app:srcCompat="@drawable/cor_peq" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

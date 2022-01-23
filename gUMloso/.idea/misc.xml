@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/uncha/AndroidStudioProjects/gUMloso/app/src/main/res/drawable/empty_space.xml" value="0.22760416666666666" />
+        <entry key="..\:/Users/uncha/AndroidStudioProjects/gUMloso/app/src/main/res/drawable/layout_corners_shape.xml" value="0.3828125" />
+        <entry key="..\:/Users/uncha/AndroidStudioProjects/gUMloso/app/src/main/res/drawable/rounded_moldura.xml" value="0.3828125" />
+        <entry key="..\:/Users/uncha/AndroidStudioProjects/gUMloso/app/src/main/res/drawable/spin_item.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/uncha/AndroidStudioProjects/gUMloso/app/src/main/res/drawable/spinner_background.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/uncha/AndroidStudioProjects/gUMloso/app/src/main/res/layout/activity_choose_type.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/uncha/AndroidStudioProjects/gUMloso/app/src/main/res/layout/activity_criar_reserva.xml" value="0.5" />
+        <entry key="..\:/Users/uncha/AndroidStudioProjects/gUMloso/app/src/main/res/layout/activity_edit_manager_profile.xml" value="0.21145833333333333" />
+        <entry key="..\:/Users/uncha/AndroidStudioProjects/gUMloso/app/src/main/res/layout/activity_edit_profile_user.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/uncha/AndroidStudioProjects/gUMloso/app/src/main/res/layout/activity_edit_restaurant.xml" value="0.33" />
+        <entry key="..\:/Users/uncha/AndroidStudioProjects/gUMloso/app/src/main/res/layout/activity_gestao_reservas.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/uncha/AndroidStudioProjects/gUMloso/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/uncha/AndroidStudioProjects/gUMloso/app/src/main/res/layout/activity_maps.xml" value="0.21145833333333333" />
+        <entry key="..\:/Users/uncha/AndroidStudioProjects/gUMloso/app/src/main/res/layout/activity_register_rest.xml" value="0.33" />
+        <entry key="..\:/Users/uncha/AndroidStudioProjects/gUMloso/app/src/main/res/layout/activity_register_rest2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/uncha/AndroidStudioProjects/gUMloso/app/src/main/res/layout/activity_scroll_reservations.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/uncha/AndroidStudioProjects/gUMloso/app/src/main/res/layout/activity_shifts.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/uncha/AndroidStudioProjects/gUMloso/app/src/main/res/layout/activity_show_reservation.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/uncha/AndroidStudioProjects/gUMloso/app/src/main/res/layout/edit_text_background.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/uncha/AndroidStudioProjects/gUMloso/app/src/main/res/layout/item_scroll.xml" value="0.21145833333333333" />
+        <entry key="..\:/Users/uncha/AndroidStudioProjects/gUMloso/app/src/main/res/layout/login_activity.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/uncha/AndroidStudioProjects/gUMloso/app/src/main/res/layout/main_page.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/uncha/AndroidStudioProjects/gUMloso/app/src/main/res/layout/register_activity.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/uncha/AndroidStudioProjects/gUMloso/app/src/main/res/layout/reservation_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/uncha/AndroidStudioProjects/gUMloso/app/src/main/res/layout/reservation_item2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/uncha/AndroidStudioProjects/gUMloso/app/src/main/res/layout/restaurant.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/uncha/AndroidStudioProjects/gUMloso/app/src/main/res/layout/restaurant_item.xml" value="0.21145833333333333" />
+        <entry key="..\:/Users/uncha/AndroidStudioProjects/gUMloso/app/src/main/res/layout/restaurant_view.xml" value="0.21145833333333333" />
+        <entry key="..\:/Users/uncha/AndroidStudioProjects/gUMloso/app/src/main/res/menu/bottom_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/uncha/AndroidStudioProjects/gUMloso/app/src/main/res/menu/main_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/uncha/AndroidStudioProjects/gUMloso/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/uncha/AndroidStudioProjects/gUMloso/app/src/main/res/mipmap-anydpi-v26/icon_gumloso_round.xml" value="0.11770833333333333" />
+        <entry key="..\:/Users/uncha/AndroidStudioProjects/gUMloso/app/src/main/res/mipmap-anydpi-v26/icon_map.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/uncha/AndroidStudioProjects/gUMloso/app/src/main/res/mipmap-anydpi-v26/icon_map_round.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/uncha/AndroidStudioProjects/gUMloso/app/src/main/res/mipmap-xxhdpi/icon_gumloso.xml" value="0.11770833333333333" />
+        <entry key="..\:/Users/uncha/AndroidStudioProjects/gUMloso/app/src/main/res/mipmap-xxhdpi/icon_gumloso_foreground.xml" value="0.11770833333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

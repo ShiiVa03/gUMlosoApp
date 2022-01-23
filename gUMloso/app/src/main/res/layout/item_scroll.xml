@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tv_long"
+    android:layout_width="335dp"
+    android:layout_height="29dp"
+    android:background="@drawable/layout_corners_shape"
+    android:backgroundTint="@color/buttonColor"
+    android:textAlignment="center"
+    android:textColor="@color/textColorB"
+    android:textSize="20sp"
+    tools:layout_editor_absoluteY="4dp"/>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="openDatePicker"
+    tools:context=".manager.GestaoReservas">
+
+    <EditText
+        android:id="@+id/ano_reserva2"
+        android:layout_width="70dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/edit_text_background"
+        android:ems="10"
+        android:hint="yy"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/mes_reserva2"
+        app:layout_constraintTop_toBottomOf="@+id/divider50" />
+
+    <EditText
+        android:id="@+id/dia_reserva2"
+        android:layout_width="48dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/edit_text_background"
+        android:ems="10"
+        android:hint="dd"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/divider50" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="221dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="221dp"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/mes_reserva2"
+        android:layout_width="47dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/edit_text_background"
+        android:ems="10"
+        android:hint="mm"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/dia_reserva2"
+        app:layout_constraintTop_toBottomOf="@+id/divider50" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewReservations"
+        android:layout_width="397dp"
+        android:layout_height="758dp"
+        android:layout_marginTop="37dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider9" />
+
+    <View
+        android:id="@+id/divider50"
+        android:layout_width="344dp"
+        android:layout_height="6dp"
+        android:layout_marginTop="14dp"
+        android:background="@color/textColorB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <View
+        android:id="@+id/divider9"
+        android:layout_width="344dp"
+        android:layout_height="6dp"
+        android:layout_marginTop="13dp"
+        android:background="@color/textColorB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ano_reserva2" />
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="344dp"
+        android:layout_height="6dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/textColorB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="124dp"
+        android:text="Reservas"
+        android:textColor="@color/buttonColor"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider4" />
+
+    <ImageButton
+        android:id="@+id/date_picker2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="7dp"
+        android:onClick="openDatePicker"
+        app:layout_constraintStart_toEndOf="@+id/ano_reserva2"
+        app:layout_constraintTop_toBottomOf="@+id/divider50"
+        app:srcCompat="@drawable/calendario_s1" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:text="Data"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider50" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    tools:context=".consumer.ShowReservation">
+
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="344dp"
+        android:layout_height="4dp"
+        android:layout_marginTop="52dp"
+        android:background="@color/textColorB"
+        app:layout_constraintEnd_toStartOf="@+id/guideline13"
+        app:layout_constraintStart_toStartOf="@+id/guideline11"
+        app:layout_constraintTop_toBottomOf="@+id/nrPessoas_reserva2" />
+
+    <View
+        android:id="@+id/divider5"
+        android:layout_width="344dp"
+        android:layout_height="6dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/textColorB"
+        app:layout_constraintEnd_toStartOf="@+id/guideline13"
+        app:layout_constraintStart_toStartOf="@+id/guideline11"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/divider6"
+        android:layout_width="344dp"
+        android:layout_height="4dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/textColorB"
+        app:layout_constraintEnd_toStartOf="@+id/guideline13"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <TextView
+        android:id="@+id/data_reserva2"
+        android:layout_width="197dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="16dp"
+        android:text="Data"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/guideline11"
+        app:layout_constraintTop_toTopOf="@+id/guideline12" />
+
+    <TextView
+        android:id="@+id/hora_reserva2"
+        android:layout_width="129dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:text="Hora:"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/guideline13"
+        app:layout_constraintTop_toTopOf="@+id/guideline12" />
+
+    <TextView
+        android:id="@+id/nrPessoas_reserva2"
+        android:layout_width="301dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="50dp"
+        android:text="Nr. Pessoas"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/guideline11"
+        app:layout_constraintTop_toBottomOf="@+id/data_reserva2" />
+
+    <TextView
+        android:id="@+id/nrPessoas_reserva3"
+        android:layout_width="74dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="24dp"
+        android:text="Rating"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/ratingBar"
+        app:layout_constraintEnd_toStartOf="@+id/ratingBar"
+        app:layout_constraintStart_toStartOf="@+id/guideline11"
+        app:layout_constraintTop_toTopOf="@+id/ratingBar" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="110dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="16dp"
+        android:text="Reservas"
+        android:textColor="@color/textColorB"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/guideline13"
+        app:layout_constraintStart_toStartOf="@+id/guideline11"
+        app:layout_constraintTop_toBottomOf="@+id/divider5" />
+
+    <TextView
+        android:id="@+id/nome_restaurante_res2"
+        android:layout_width="252dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_moldura"
+        android:backgroundTint="@color/buttonColor"
+        android:text="NomeRestaurante"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline13"
+        app:layout_constraintStart_toStartOf="@+id/guideline11"
+        app:layout_constraintTop_toBottomOf="@+id/divider6" />
+
+
+    <Button
+        android:id="@+id/reviewButton"
+        android:layout_width="161dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/buttonColor"
+        android:text="Review"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline13"
+        app:layout_constraintStart_toEndOf="@+id/button7" />
+
+    <EditText
+        android:id="@+id/ratingText"
+        android:layout_width="322dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="Review"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/guideline13"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="@+id/guideline11"
+        app:layout_constraintTop_toTopOf="@+id/divider3" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="233dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="80dp"
+        android:background="#A6DAD8D8"
+        android:progressBackgroundTint="@color/white"
+        android:progressTint="@color/caseColor"
+        android:stepSize="1"
+        app:layout_constraintBottom_toTopOf="@+id/reviewButton"
+        app:layout_constraintEnd_toStartOf="@+id/guideline13" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="168dp"
+        android:layout_height="88dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/buttonColor"
+        android:drawableRight="@drawable/cor_peq"
+        android:text="Adicionar aos preferidos"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline11" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="32dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="32dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="164dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
