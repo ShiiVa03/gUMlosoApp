@@ -1,0 +1,7 @@
+[global.databases.mysql_db]
+url = "mysql://root@localhost:3306/gUMloso"
+
+[default]
+address = "0.0.0.0"
+port = 9000
+limits = { json = "4000MiB" }

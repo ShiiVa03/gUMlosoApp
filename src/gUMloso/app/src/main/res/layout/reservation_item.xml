@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:addStatesFromChildren="false"
+    android:onClick="clickReservation">
+
+    <TextView
+        android:id="@+id/nrPessoas_reserva"
+        android:layout_width="182dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Nr. Pessoas"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hora_reserva" />
+
+    <TextView
+        android:id="@+id/data_reserve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:text="Data"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reservation_name" />
+
+    <TextView
+        android:id="@+id/hora_reserva"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="12dp"
+        android:text="Hora:"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/nrPessoas_reserva"
+        app:layout_constraintTop_toBottomOf="@+id/reservation_name" />
+
+    <TextView
+        android:id="@+id/reservation_name"
+        android:layout_width="325dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_moldura"
+        android:backgroundTint="@color/caseColor"
+        android:textAlignment="center"
+        android:textColor="@color/textColorB"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView17" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="387dp"
+        android:layout_height="140dp"
+        android:background="@drawable/rounded_moldura"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/favRestImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="4dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/reservation_name"
+        app:layout_constraintEnd_toEndOf="@+id/reservation_name"
+        app:layout_constraintTop_toTopOf="@+id/reservation_name"
+        app:layout_constraintVertical_bias="0.727"
+        app:srcCompat="@drawable/cor_peq" />
+</androidx.constraintlayout.widget.ConstraintLayout>
